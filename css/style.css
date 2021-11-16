@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+
+    width: 375px;
+}
+
+.container{
+    width: 375px;
+    height: auto;
+
+    overflow-y: scroll;
+
+    background-color:#e5e5e5;
+
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.topo{
+    width: 375px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #e5e5e5;
+
+    position: fixed;
+    z-index: 3;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+
+    border-bottom: black 2px;
+}
+
+.topo img{
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 16px;
+    margin-bottom: 11px;
+}
+.feed{
+    width: 375px;
+    height: auto;
+
+    background-color: white;
+
+    padding-top: 102px;
+    padding-bottom: 80px;
+
+    overflow-y: scroll;
+}
+
+.caixa-mensagem{
+    width: 375px; 
+    height: 80px;
+    
+    background-color: #e5e5e5;
+    
+
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+
+    
+    z-index: 3;
+    
+}
+.caixa-mensagem input{
+    margin-left: 17px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+
+    border: none;
+}
+.caixa-mensagem ion-icon {
+    margin-right: 18px;
+    width: 26px;
+    height: 26px;
+}
+
+.mensagens{
+    width: 375px;
+    height: auto;
+
+    margin: 4px 0;
+    
+    align-items: center;
+
+    overflow-wrap: break-word;
+
+    padding: 5px 0;
+    
+}
+.msgStatus{
+    width: 375px;
+    height: auto;
+
+    background-color:#DCDCDC;
+}
+.msgMessage{
+    width: 375px;
+    height: auto;
+
+    background-color: #FFFF;
+}
+.msgPrivateMsg{
+    width: 375px;
+    height: auto;
+
+    background-color: pink;
+}
+
+.msgMessage, .msgPrivateMsg, .msgStatus{
+    margin: 4px 0;
+    padding: 10px 0;
+}
+
+.hora{
+    font-weight: bold;
+    color: #AAAA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.sMsg{
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.Msg{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
